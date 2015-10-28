@@ -6,6 +6,15 @@ The series of Fibonacci numbers is defined as
 
 where f(0) = 0, f(1) = 1. Write a program which reads an integer N from the console, calculates f(N) and prints the result to the console. For N=10 you should obtain the result 55.
 
+## Reading a number from the console
+
+In order to read a number from the console and write this number into a 
+variable N use the lines
+```cpp 
+cout << "N" << endl;
+cin >> N; 
+```
+
 ### Notes
 * This homework is due until 4.11.2015
 * The file you have to edit is **fibonacci.cxx**, please leave all other files
