@@ -6,4 +6,4 @@ script:
   - make
 
 after_success:
-  - ./fibonacci < 10
+  - echo 10 | ./fibonacci 
